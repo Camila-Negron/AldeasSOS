@@ -42,15 +42,13 @@
 
 /* Estilos adicionales para mejorar la apariencia */
 body {
-    *{
-    margin: 0;
+
+    margin-bottom: 0;
     padding: 0;
-    }
     /*background-image: url(1.jpg);*/
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    height: 20vh;
 }
 
 .submenu {
