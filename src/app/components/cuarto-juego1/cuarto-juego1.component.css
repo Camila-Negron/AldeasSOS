@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  
+}
+
+.multiplication-section {
+  flex-basis: 70%;
+}
+
+.multiplication-problem {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.number {
+  margin-right: 10px;
+}
+
+.times-symbol {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.answer-input {
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 24px;
+  width: 60px;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 34px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.status-section {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.status-item {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 34px;
+}
+
+.status-value {
+  background-color: white;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.multiplication-problem {
+  display: inline-block;
+  text-align: right;
+  font-family: 'Courier New', monospace;
+  font-size: 34px; /* Adjust font size as needed */
+}
+
+.number-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+.partial-input, .final-input {
+  font-size: 24px;
+  margin-top: 5px;
+  text-align: right;
+  /* Add other styles as needed */
+}
+
+.highlight {
+  border-color: red; /* Highlight the current input step */
+}

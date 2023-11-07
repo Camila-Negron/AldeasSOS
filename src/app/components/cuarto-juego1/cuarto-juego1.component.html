@@ -1,0 +1,39 @@
+<br><br><br><br><br><br><br><br>
+<div class="container">
+  <br><br><br><br><br><br>
+  <div class="multiplication-section">
+    <h2>Multiplica:</h2>
+    <div class="multiplication-problem">
+      <div class="number-row">{{ multiplicand }}</div>
+      <div class="number-row">
+        <span>x</span>
+        <span>{{ multiplier }}</span>
+      </div>
+      <!-- <div class="line"></div>
+      <div *ngFor="let partial of partials; let i = index">
+        <input type="text" [(ngModel)]="userAnswer" class="answer-input" placeholder="Escribe tu respuesta">
+      </div>  -->     
+      <div class="line"></div>
+      <input type="text" [(ngModel)]="userAnswer" class="final-input" placeholder="Escribe tu respuesta">
+    </div>
+    
+    <br><br><br><br><br><br><br><br>    
+    <button class="submit-button" (click)="checkAnswer()">Enviar</button>
+  </div>
+  <div class="status-section">
+    <div class="status-item">
+      Preguntas contestadas
+      <div class="status-value">{{ questionsAnswered }}</div>
+    </div>
+    
+    <div class="status-item">
+      Tiempo transcurrido
+      <div class="status-value">{{ elapsedTime }}</div> <!-- Esto mostrará el tiempo transcurrido. -->
+    </div>
+    <div class="status-item">
+      Puntuación SmartScore sobre 100
+      <div class="status-value">{{ smartScore }}</div>
+    </div>
+    
+  </div>
+</div>
