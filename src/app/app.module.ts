@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CuartoJuego2Component } from './components/cuarto-juego2/cuarto-juego2.component';
 import { FormsModule } from '@angular/forms';
 import { CuartoJuego1Component } from './components/cuarto-juego1/cuarto-juego1.component';
+import { Juedo2de3roComponent } from './components/juedo2de3ro/juedo2de3ro.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CuartoJuego1Component } from './components/cuarto-juego1/cuarto-juego1.
     NavbarComponent,
     CuartoJuego2Component,
     CuartoJuego1Component,
+    Juedo2de3roComponent
   ],
   imports: [
     BrowserModule,
